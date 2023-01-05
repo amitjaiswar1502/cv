@@ -1,0 +1,41 @@
+img.roundphoto{
+    border-radius: 50%;
+    transition: all 1s ease-in;
+    
+}
+
+img:hover{
+    /* width: 200px; */
+    transform: rotate(20deg);
+    transform-origin: 50% 50%; 
+
+}
+
+.table{
+    border: 2px solid rgb(0, 0, 0);
+    border-spacing:  5px;
+}
+
+hr{
+    border: 1px solid white;
+
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+@media (min-width: 720px) {
+    body {
+       background-color: rgb(244, 172, 238) !important;
+    }
+ }
+
+ @media (min-width: 420px) {
+    body {
+        background-color: #86E5FF;
+    }
+ }
+
