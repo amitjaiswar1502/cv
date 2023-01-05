@@ -1,4 +1,4 @@
-.roundphoto{
+img.roundphoto{
     border-radius: 50%;
     transition: all 1s ease-in;
     
